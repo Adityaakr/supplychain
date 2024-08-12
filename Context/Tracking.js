@@ -194,8 +194,6 @@ const startShipment = async (getProduct) => {
     }
 
 }
-}
-
 useEffect(() => {
     checkifWalletConnected();
 }, []);
@@ -217,3 +215,4 @@ return (
         {children}
     </TrackingContext.Provider>
 );
+}
